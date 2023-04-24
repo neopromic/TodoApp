@@ -1,0 +1,59 @@
+:root {
+  font-family: 'Inter', sans-serif;
+  
+}
+h2, h3, h4, h5, h6, p {
+  color: ghostwhite;
+}
+body {
+  background-color: #1e1e1e;
+}
+.container h1 {
+  color: ghostwhite;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 3px;
+  margin-bottom: 3px;
+  
+}
+.container h2{
+  color: lightslategrey;
+  text-align: center;
+  padding-top: 0%;
+  margin-top: 0%;
+  font-weight: 400;
+
+}
+.container h3{
+  padding-left: 8px;
+  padding-top: 8vh;
+  font-size: 1.5em;
+}
+.nothing-text {
+  padding-left: 1em;
+}
+.create-new * {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.material-symbols-outlined {
+  color: ghostwhite;
+  background-color: palevioletred;
+  justify-content: center;
+  align-items: center;
+  margin-right: 1em;
+  border-radius: 100%;
+  padding: 8px;
+  height: min-content;
+  width: min-content;
+}
+ .material-symbols-outlined:hover {
+  background-color: white; 
+  color: #1e1e1e;
+}
+.material-symbols-outlined::after {
+  background-color: palevioletred;
+  color: ghostwhite;
+}
